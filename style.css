@@ -142,17 +142,16 @@ footer {
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
-  
 }
 /*animação swith*/
-  @keyframes slide-in {
-    from {
-      left: 0;
-    }
-    to {
-      left: 50%;
-    }
+@keyframes slide-in {
+  from {
+    left: 0;
   }
+  to {
+    left: 50%;
+  }
+}
 @keyframes slide-out {
   from {
     left: 50%;
